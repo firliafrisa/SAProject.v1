@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SAProject</string>
+    <string name="minimum_password">minimal 6 Character</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

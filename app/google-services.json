@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "791296014298",
+    "firebase_url": "https://saproject-5cf97.firebaseio.com",
+    "project_id": "saproject-5cf97",
+    "storage_bucket": "saproject-5cf97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791296014298:android:867fcb3a0b7c3588f2b2e3",
+        "android_client_info": {
+          "package_name": "com.teknokrat.mobile2019.if17fx17312296.saproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791296014298-f0jusnn61gvrvt6e7lhcfes1gqp1so2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoChF59bQbAozrvqOQxJhblNAsPL7qaYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791296014298-f0jusnn61gvrvt6e7lhcfes1gqp1so2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

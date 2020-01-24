@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/g1252">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/fotoprofile"
+                android:src="@drawable/saporject"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </ImageView>
+        </LinearLayout>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/sign_Google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#01579b"
+            android:textColor="#ffffffff"
+            android:text="LOGIN WITH GOOGLE">
+
+        </Button>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-90dp">
+            <TextView
+                android:gravity="center"
+
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:text="Firli Afrisa"
+                android:textColor="#ffffffff"
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-black">
+
+
+
+
+            </TextView>
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailname"
+                android:text="firliafrisa@gmail.com"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-black">
+
+
+
+
+            </TextView>
+            <Button
+                android:id="@+id/logout"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#ffffff"
+                android:background="#01579b">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
